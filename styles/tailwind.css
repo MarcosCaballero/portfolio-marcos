@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+/* Navbar */
+.banner {
+  @apply text-center items-center block whitespace-nowrap border-r-4 border-solid overflow-hidden capitalize;
+}
+/* Technologies */
+.slider-before,
+.slider-after {
+  @apply h-auto absolute w-[calc(100px)] z-10;
+}
+
+.slider-after {
+  @apply right-0 top-0 rotate-180;
+}
+
+.slider-before {
+  @apply left-0 top-0;
+}
+
+@tailwind utilities;
