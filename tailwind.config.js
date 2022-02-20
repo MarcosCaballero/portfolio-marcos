@@ -27,11 +27,7 @@ module.exports = {
       },
       animation: {
         scroll: "scroll 15s ease-out infinite",
-        typing:
-          "typing 5s steps(32), blink 0.5s infinite step-end alternate !important",
-      },
-      width: {
-        "32ch": "32ch",
+        typing: "typing 3s steps(32), blink 0.5s infinite step-end alternate ",
       },
     },
   },
