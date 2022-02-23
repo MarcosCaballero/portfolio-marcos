@@ -6,7 +6,6 @@ import { useRouter } from "next/router";
 
 const Navbar = () => {
   const router = useRouter();
-  console.log(router.pathname);
   return (
     <header className="w-full fixed -top-0 bg-white flex justify-between items-center">
       <Banner text="marcos caballero full stack developer" />
