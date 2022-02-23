@@ -1,24 +1,31 @@
 import React from "react";
 import Tecnologies from "../Tecnoligies/Tecnologies";
+import Link from "next/link";
 
 const Landing = () => {
   return (
     <div className="w-full h-screen flex ">
       <div className="w-2/4 h-full">
         <img
-          className="m-20 mx-auto"
+          className="mt-[15%] mx-auto"
           src="/foto (2).png"
           width="60%"
           alt="foto landing marcos caballero"
         />
       </div>
       <div className="w-2/4 h-full">
-        <h3 className="h-3/5">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
-          nihil quod eligendi iure error cum expedita, eius fugit numquam
-          tempora ad aut quia, tenetur necessitatibus rem molestiae unde nisi
-          nostrum!
-        </h3>
+        <div className="h-3/5 pt-20">
+          <h3 className="text-4xl text-center p-10 ">
+            Soy un programador de argentina con muchas ganas de trabajar y
+            realizar proyectos innovadores.
+          </h3>
+          <p className="text-center py-10 mx-auto">
+            Pasate por
+            <Link href="/projects">
+              <a className="pl-2">Proyectos</a>
+            </Link>
+          </p>
+        </div>
         <div className="h-2/5">
           <Tecnologies />
         </div>
